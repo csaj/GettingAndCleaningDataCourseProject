@@ -1,3 +1,3 @@
-#Getting and Cleaning Data Course Project#
+# Getting and Cleaning Data Course Project
 
 The run_analysis.R script does the analysis to create the tidy data set from the raw data. It should be run in R. (It was tested with os darwin17.0 and R version 4.0.3 (2020-10-10).) First, the script downloads the raw data from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, places it in a "data" directory within the working directory, and unzips it. Then it merges the training and test sets to create one data set, extracts only the measurements on the mean and standard deviation for each measurement, names the activities in the data set, labels the variables in the data set, and finally creates a new, independent tidy data set "averages.txt" in the "data" directory, with the average of each variable for each activity and each subject.
